@@ -21,6 +21,18 @@ WINNING_COMBO = [
 
 
 
+    # find index and 
+    index = BOARD.index(players_choice)
+    BOARD[index] = icon
+    print_board(BOARD)
+
+
+
+
+
+
+
+
 # Welcome - VINCE
 def welcome_screen():
     print("""
